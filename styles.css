@@ -1,0 +1,239 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #88a3ce;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  width: 700px;
+}
+
+.image-selector {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.bullet {
+  display: inline-block;
+  border-radius: 100%;
+  margin: 0 .1em 0 auto;
+  width: 10px;
+  height: 10px;
+  border: 2px double cyan;
+  transition: background-color 0.5s;
+}
+
+.bullet:hover {
+  background-color: cyan;
+}
+
+#left-arrow {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  color: white;
+  transition: font-size 0.5s, color 0.5s;
+}
+
+#left-arrow:hover {
+  font-size: 35px;
+  color: red;
+}
+
+#right-arrow {
+  font-size: 30px;
+  position: absolute;
+  float: right;
+  right: 0;
+  top: 50%;
+  color: white;
+  transition: font-size 0.5s, color 0.5s;
+}
+
+#right-arrow:hover {
+  font-size: 35px;
+  color: red;
+}
+
+#navigation h1,
+#navigation li {
+  cursor: pointer;
+}
+
+.image {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 100%;
+  transition: opacity 1s;
+}
+
+.disable {
+  opacity: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background: black;
+  width: 100%;
+  color: white;
+}
+
+.selected {
+  background-color: cyan;
+}
+
+#slider {
+  margin: 0 auto;
+  position: relative;
+  width: 600px;
+  height: 350px;
+  padding: 0 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
